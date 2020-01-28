@@ -1,4 +1,4 @@
-### Assignment for WAES
+# Assignment for WAES
 
 
 # Getting Started
@@ -24,10 +24,10 @@ The following guides illustrate how to use some features concretely:
 
 Provides endpoints for adding base64encoding JSON and compares them.
 
-Adding Base64EncodedJSON
+### Adding Base64EncodedJSON
 POST "/{id}/{side}"
 
-Find Differences of two sides includes Base64EncodedJSON
+### Find Differences of two sides includes Base64EncodedJSON
 GET /{id}
 
 ## Running the project
