@@ -27,7 +27,9 @@ Provides endpoints for adding base64encoding JSON and compares them.
 ### Adding Base64EncodedJSON
 
 API URL "/assignment/{id}/{side}"
+
 method POST
+
 REQUEST
 {
   "base64encodedJSON": "string"
@@ -35,6 +37,7 @@ REQUEST
 
 ### Find Differences of two sides includes Base64EncodedJSON
 API URL "/assignment/{id}"
+
 method GET
 
 ## Running the project
