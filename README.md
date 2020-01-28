@@ -25,10 +25,17 @@ The following guides illustrate how to use some features concretely:
 Provides endpoints for adding base64encoding JSON and compares them.
 
 ### Adding Base64EncodedJSON
-POST "/{id}/{side}"
+
+API URL "/assignment/{id}/{side}"
+method POST
+REQUEST
+{
+  "base64encodedJSON": "string"
+}
 
 ### Find Differences of two sides includes Base64EncodedJSON
-GET /{id}
+API URL "/assignment/{id}"
+method GET
 
 ## Running the project
 
