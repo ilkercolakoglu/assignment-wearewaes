@@ -59,7 +59,6 @@ In addition, You can run integration and unit test inside src/main/test resource
 - Create a Jenkins pipeline
 - Implement Spring Security for securing REST Services
 - Expand Diff Content with more sides
-- Use @Embeddable for expanding sides
 - Find differences more detailed. Like that
 firstSide  16-19 abcd
 SecondSide 16-19 dcba
